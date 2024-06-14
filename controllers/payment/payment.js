@@ -64,8 +64,8 @@ const add = async (req, res) => {
           quantity: item.quantity,
         };
       }),
-      success_url: "https://real-estate-crm-jet.vercel.app/payments",
-      cancel_url: "https://real-estate-crm-jet.vercel.app/payments",
+      success_url: "https://bestcrmproduct.netlify.app/payments",
+      cancel_url: "https://bestcrmproduct.netlify.app/payments",
     });
     res.json({ url: session.url });
   } catch (e) {
